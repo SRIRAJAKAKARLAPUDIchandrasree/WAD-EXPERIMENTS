@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Student Registration Form</title>
+</head>
+<body>
+	<h1 style="color: red;"> Student Registration form </h1>
+	<table cellspacing="10" cellpadding="5">
+		<form>
+		<tr align="left">
+			<th>RegNo</th>
+				<td>
+					<input type="text" name="regno" placeholder="Enter your RegNo" required>
+				</td>
+		</tr>
+		<tr align="left">
+			<th>Name</th>
+			<td>
+				<input type="text" name="name" placeholder="Enter your name" required>
+			</td>
+		</tr>
+		<tr align="left">
+			<th>Father Name</th>
+			<td>
+				<input type="text" name="fname" placeholder="Enter your Father name" required>
+			</td>
+		</tr>
+		<tr align="left">
+			<th>Gender</th>
+			<td>
+				<input type="radio" name="gender" value="male">Male
+				<input type="radio" name="gender" value="female" checked>Female
+			</td>
+		</tr>
+		<tr  align="left">
+			<th>Date Of Birth</th>
+			<td>
+				<input type="Date" name="dob">
+			</td>
+		</tr>
+		<tr align="left">
+			<th>Languages Known</th>
+			<td>
+				<input type="checkbox" name="c">C
+				<input type="checkbox" name="c++">C++
+				<input type="checkbox" name="python">Python<br>
+				<input type="checkbox" name="Java">Java
+				<input type="checkbox" name="R">R
+				<input type="checkbox" name="julia">Julia
+
+			</td>
+		</tr>
+		<tr align="left">
+			<th>Branch</th>
+			<td>
+				<select>
+					<option value="-1" selected>Select Option</option>
+					<option value="AI&DS">AI&DS</option>
+					<option value="AI&ML">AI&ML</option>
+					<option value="CSE">CSE</option>
+					<option value="IT">IT</option>
+					<option value="ECE">ECE</option>
+					<option value="EEE">EEE</option>
+					<option value="Mech">Mech</option>
+					<option value="Civil">Civil</option>
+				</select>
+			</td>
+		</tr>
+		<tr align="left">
+			<th>Address</th>
+			<td>
+				<textarea rows="8" cols="20" placeholder="Enter your Address"></textarea>
+			</td>
+		</tr>
+		<tr align="center">
+			<td colspan="2">
+				<input type="submit" name="submit">
+				<input type="Reset" name="Reset">
+			</td>
+		</tr>
+	</form>
+	</table>
+
+</body>
+</html>

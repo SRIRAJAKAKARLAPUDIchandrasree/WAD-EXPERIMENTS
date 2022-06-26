@@ -1,0 +1,37 @@
+h1{
+	background-color:red;
+	color: yellow;
+	margin-left: 100px;
+	margin-right: 200px;
+	margin-top: 100px;
+	margin-bottom: 200px;
+	border-style: dotted;
+	border-width: 10px;
+}
+#heading{
+	background-color: cyan;
+	color: green;
+	margin: 100px 200px 200px 100px;
+	border-style: dashed;
+	border-width: 2px;
+}
+h1.hello{
+	background-color: yellowgreen;
+	color: red;
+	margin: 100px;
+	border-style: double;
+	border-width: 15px;
+}
+h1.pic{
+	border-width: 10px;
+	border-style: solid;
+	background-size: 100px;
+	background-image: url(https://www.hindisoch.com/wp-content/uploads/2020/10/Shree-Radha-Krishna-God-Love-Wallpaper-HD-Download.jpg); 
+	background-repeat: round;
+}
+h3{
+	width: 500px;
+    border: 20px solid green;
+    padding: 55px;
+    margin: 20px;
+}
