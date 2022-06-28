@@ -1,0 +1,37 @@
+
+<html>
+    <head>
+        <title> </title>
+        <script>
+            function showalert(){
+                alert(" be safe you are in a wrong direction press ok to be in safe place  ");
+            }
+            function confirm_demo(){ 
+               var r = confirm("do you really want to conform this ")
+               if(r==true)
+               {
+                    document.write("you pressed ok button")
+               }
+               else{
+                   document.write("you pressed cancel button")
+               }
+            }
+            function prompt_demo(){
+                var name = prompt("enter your name", "sree ")
+                if(name!=null && name!=""){
+                    document.write("entered name is"+name)
+                }
+            }
+
+
+        </script>
+    <head>
+    <body>
+       <h1>Alert demo</h1>
+       <input type = "button" name = "b1" value = "this is alert box" onclick="showalert()">
+       <h1>confirm_demo</h1>
+       <input type="button" name="c" value="this is conform box " onclick="confirm_demo()">
+       <h1>Prompt box demo</h1>
+       <input type="button" onClick ="prompt_demo()" value="this is prompt"/>
+    </body>
+</html>
